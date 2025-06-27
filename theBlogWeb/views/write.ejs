@@ -1,0 +1,34 @@
+<%- include("partials/header.ejs") %>
+<body>
+    <form action="/submit" method="post" class="card>
+        <div class="hBar">
+            <div class="titleInput">
+                <label for="title">Title</label>
+                <input type="text" id="title" name="title" placeholder="Blog Title" required><br>
+            </div>
+            <div class="authorInput">
+                <label for="author">Author</label>
+                <input type="text" id="author" name="author" placeholder="Auhtor's Name" required><br>
+            </div>
+            <div class="catInput">
+                <label for="category">Category</label>
+                <select id="category" name="category" class="select" required>
+                <option value="Technology">Technology</option>
+                <option value="Sports">Sports</option>
+                <option value="Lifestyle">Lifestyle</option>
+                <option value="Business">Business</option>
+                <option value="Health">Health</option>
+                <option value="World">World</option>
+                <option value="Other">Other</option>
+                <option value="Uncategorized">Uncategorized</option>
+            </select> <br>
+            </div>
+        </div>
+        <div class="contentInput">
+            <label for="content">Content</label>
+            <textarea class="full-textarea" id="content" name="content" placeholder="your blog content here.."></textarea><br>
+        </div>
+        <button type="submit" class="btn btn-primary">Publish</button>
+    </form>
+</body>
+</html>

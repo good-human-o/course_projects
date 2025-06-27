@@ -1,0 +1,23 @@
+
+body{
+    text-align: center;
+    background-color: rgb(26, 26, 26);
+}
+
+img{
+    margin: 30px auto;
+    border: 5px solid;
+    border-radius: 5px;
+    border-color: azure
+
+}
+
+h1{
+    text-transform: capitalize;
+    font-family: "Libre Baskerville";
+}
+
+.text{
+    color: azure;
+    padding: auto 30px;
+}
